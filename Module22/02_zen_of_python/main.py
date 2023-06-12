@@ -1,0 +1,5 @@
+file = open('zen.txt', 'r')
+file_rev = file.readlines()
+file_rev.reverse()
+print(''.join(file_rev))
+file.close()
